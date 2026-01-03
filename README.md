@@ -9,4 +9,4 @@ things you should do before running my program.
       once it has been run for the first time, you should be fine, and it should run smoothly from here on in. if anything messes up you can always just copy all the files
       (that you named if you followed the on-screen prompts) into a folder on your desktop, delete the entire savestateFolder from your home directory, and run it again from the downloads folder,
       then drag and drop the files you put in the desktop folder back into the same place you found them iniitally. This will fix like 90% of the issues you could have, or hit me up here, but no promises
-      on speedy replies, im new to using github to actually contribute if it wasn't obvious by this readme. Enjoy and happy practicing, I hope this makes someone's life switching to linux easier. 
+      on speedy replies, im new to using github to actually contribute if it wasn't obvious by this readme. Enjoy and happy practicing, I hope this makes someone's life switching to linux easier.
