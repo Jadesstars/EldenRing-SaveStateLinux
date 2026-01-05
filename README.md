@@ -7,4 +7,4 @@ If you for some reason select the wrong ER0000.sl2 file, fear not I made it simp
     simply open your terminal of choice and paste this:
 
     rm -f $HOME/savestatescriptFolder/saveFileScript.txt
-then you re-run the script and choose one of the other options that are presented to you, repeat until you have the correct game files.
+then you re-run the script and choose one of the other options that are presented to you, repeat until you have the correct game files, or manually type it if it isnt show in the list of available options.
