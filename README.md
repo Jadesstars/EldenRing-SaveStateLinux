@@ -1,3 +1,7 @@
+	##########################
+	## im new to github and ##
+	## git please be gentle ##
+	##########################
 so I got tired of the save file organizer not running properly with the linux environment created by using cheatengine/ERTool in conjunction with linux. it should run from your downloads file just fine
 but it does create a folder in your home directory ($HOME) which means that if you like running things from command line, its only a couple of keypresses away.
 Otherwise you will have to open file explorer right-click and select run in terminal, or make a desktop shortcut and still right-click and run in terminal.
