@@ -17,7 +17,7 @@ fi
 
 #this is the way that it checks to see if you have the script already configured, so you dont have to tell it where to look each time for your game saves
 if [ ! -e $scriptPdir/saveFileScript.txt ]; then
-	findFileLocation=$(find $HOME/.local/ -name "ER000*.sl*" | grep -v ER0*.*.bak | grep -v BACKUP > $scriptPdir/saveFileScript.txt 2>/dev/null)
+	findFileLocation=$(find $HOME/.local/ -type f -name "ER000*.sl*" -printf '%T@ %p\n' | sort -n | grep -v ER0*.*.bak | grep -v BACKUP > $scriptPdir/saveFileScript.txt 2>/dev/null)
 	echo "locating your EldenRing Save files"
 	$findFileLocation
 	sleep 3s
